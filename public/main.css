@@ -1,0 +1,24 @@
+body {
+    font-family: nanumgothic, nanummyeongjo, nanumpenscript, sans-serif;
+}
+
+.main-box {
+    position: relative;
+    top: 10px;
+}
+
+.row {
+    position: relative;
+    left: 25%;
+    top: 30px;
+}
+
+.container-fluid .btn-default {
+  position: relative;
+  top: -7px;
+  left: 10px;
+}
+
+body {
+  margin-bottom: 200px;
+}

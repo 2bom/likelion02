@@ -1,0 +1,49 @@
+   <link href="/main.css" rel="stylesheet">
+   
+   <!--navbar-->
+  <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#" style="text-decoration:underline;"><strong>&#60;&nbsp;CHOOSE THE HERO&nbsp;&#62;</strong></a>
+    </div>
+    
+    <div class="nav navbar-brand navbar-right">
+     <span class="glyphicon glyphicon-gift"></span>
+    </div>    
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+  <!--/navbar-->
+    
+    <br><br><br><br><br>
+    
+    <hr>
+    
+    <div class="container">
+    <h4><div class="glyphicon glyphicon-send" style="color:orange"></div><span style="font-size: 25px;">&nbsp;&nbsp;<%= @data %>님</span>과 가장 잘어울리는 슈퍼 히어로는<span style="color:orange">!</span></h4>
+    </div>
+    
+    <hr style="border: inset 3px gray;">
+  
+  <!--전생 내용 시작-->
+  <br><br><br>
+    <div class="container">
+
+        <div class="hero" align="middle">
+        <h1>&#34;<%= @ima %>&#34;<span style="font-size: 20px;">입니다.</span></h1> 
+        <br>
+        <img src="../assets/<%= @ima %>.jpg"/>
+        <br><br><br>
+        
+       <!-- Contextual button for informational alert messages -->
+      <a href="https://practice-01-ilria2.c9.io"><button type="button" class="btn btn-info">맘에 안들어 ㅠㅠ 다시할래 ㅠㅠ</button></a>
+
+        </div>
+        
+   
+    </div>
+
+    <!--/전생 내용-->
+   
